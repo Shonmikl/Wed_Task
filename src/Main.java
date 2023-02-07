@@ -1,8 +1,38 @@
 public class Main {
-    public void getMin(int[] arr) {
+    /**
+     * HT
+     *
+     * дан массив, надо:
+     * - если массив длины больше чем 4 - 3ий, и  4ий по минимальности элемент
+     * если меньше то сообщение что массив меньше
+     *
+     * - заполнить массив числами фибоначчи
+     */
+
+    // 222 31 144 3 5 88 99 4 10
+    /**
+     * min 31
+     * min2 222
+     */
+    public static void getMin(int[] arr) {
+        int min = arr[0];
+        int min2 = 0;
+
+        //20
+        for (int j : arr) {
+            if (j <= min) {
+                min2 = min; // 22
+                min = j;  //11
+            } else if (j > min && j < min2) {
+                min2 = j;
+            }
+        }
+        System.out.println("MIN 1: " + min);
+        System.out.println("MIN 2: " + min2);
 
     }
 
+    //todo
     private static int sumAlex(int[] arr) {
         int sum = 0;
         int j = arr.length - 1;
@@ -14,6 +44,7 @@ public class Main {
         return sum;
     }
 
+    //todo
     private static void sum(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
@@ -33,12 +64,11 @@ public class Main {
     }
 
 
-
     public static void main(String[] args) {
-        int[] arr = {1, 3, 6, 5, 4};
+        int[] arr = {1, 3, 2, 5, 10};
 
-        sum(arr);
-        System.out.println(sumAlex(arr));
+        getMin(arr);
+
 
     }
 }
