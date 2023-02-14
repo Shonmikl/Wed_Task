@@ -31,7 +31,6 @@ public class Main {
         }
         System.out.println("MIN 1: " + min);
         System.out.println("MIN 2: " + min2);
-
     }
 
     //todo
