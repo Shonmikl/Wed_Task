@@ -48,7 +48,7 @@ public class HW {
 
     public static String getNewString(String s) {
         //AAASSDDFFRRTGGBNHYUUU -> 3A2S2D2F2R1T2G1B1N1H1Y3U
-        //
+        //**ДОБАВИТЬ ПРОВЕРКУ
         return null;
     }
 
