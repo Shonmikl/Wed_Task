@@ -2,6 +2,7 @@ package _2023_02_28;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class LIE {
     //Метод, который генерит слова заглавными буквами,
@@ -11,10 +12,16 @@ public class LIE {
     //на палиндром
     //Вывод на экран СЛОВО : Палиндром/НЕ Палиндром
     public static void main(String[] args) {
-        String s = "MADAM";
+        String s = "MADAM1";
         List<Character> characters = new LinkedList<>();
         for(char c : s.toCharArray()) {
             characters.add(c);
+        }
+
+        ListIterator<Character> listIterator
+                = characters.listIterator();
+        while (listIterator.hasPrevious() && listIterator.hasNext()) {
+            System.out.println(listIterator.previous());
         }
 
         //l1
