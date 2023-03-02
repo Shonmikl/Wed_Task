@@ -4,4 +4,5 @@ public interface MyQueue<T> {
     void add(T el);
     T remove();
     boolean isEmpty();
+    T get();
 }
