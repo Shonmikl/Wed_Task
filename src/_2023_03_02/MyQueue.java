@@ -2,7 +2,7 @@ package _2023_03_02;
 
 public interface MyQueue<T> {
     void add(T el);
-    T remove();
+    void remove();
     boolean isEmpty();
     T get();
 }
