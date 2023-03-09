@@ -11,8 +11,8 @@ public class MyIterator {
         return null;
     }
 
-    String remove(List<Integer> list) {
-        //если объект есть то-Объект такой то удален
+    String remove(Integer number) {
+        //если объект есть то-Объект такой то удален + количество объектов
         //если нет то - объекта такого то нету
         return null;
     }
