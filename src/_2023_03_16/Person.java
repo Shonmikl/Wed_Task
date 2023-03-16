@@ -17,6 +17,7 @@ public class Person implements Comparable<Person> {
     private String department;
     private Integer age;
     private int salary;
+    private Cat cat;
 
     @Override
     public int compareTo(Person p2) {
