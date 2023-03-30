@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * - написать параметризованный интерфейс
- * - написать его реализацию InterImpl.java , т.е. парам класс
  * - сделать класс Animal-->(bird, mlek)
  * - Bird --> (tropic, non tropic)
  * - Mlek -->(Home, Wild) ----->>>

@@ -4,9 +4,6 @@ import _2023_03_16.Cat;
 import _2023_03_16.Person;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.SimpleTimeZone;
 
 public class ParamClass {
     public static void main(String[] args) {
