@@ -14,7 +14,7 @@ public class ParamClass {
 //        System.out.println(s);
 
         Doub<String, Person> doub = new Doub<>("P", new Person
-                ("name", "de", 55, 5555, new Cat()));
+                ("name",  55));
         System.out.println(doub.getValue1());
         System.out.println(doub.getValue2());
     }

@@ -12,32 +12,16 @@ import java.util.Objects;
 @Setter
 @ToString
 @AllArgsConstructor
-public class Person implements Comparable<Person> {
+public class Person  {
     private String name;
-    private String department;
-    private Integer age;
-    private int salary;
-    private Cat cat;
 
-    @Override
-    public int compareTo(Person p2) {
-      // return this.salary == p2.salary ? this.age - p2.age : this.salary - p2.salary;
-      //  return this.department.compareTo(p2.department);
-        return this.salary == p2.salary ? this.department.compareTo(p2.department) : this.salary - p2.salary;
-    }
+    private Integer age;
+
+
+
     //obj1.compareTo(obj2)
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Person)) return false;
-        Person person = (Person) o;
-        return salary == person.salary
-                && Objects.equals(department, person.department);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(department, salary);
-    }
+
+
 }
