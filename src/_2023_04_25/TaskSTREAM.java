@@ -26,7 +26,7 @@ public class TaskSTREAM {
      * String name
      * int age
      * }
-     * <p>
+     *
      * -- Сделать из списка объектов список имен и отфильтровать по возрасту
      */
 
@@ -73,7 +73,7 @@ public class TaskSTREAM {
         System.out.println(max.get()); // 5
     }
 
-    //Задание 6: ФПолучение списка уникальных слов из списка строк, длина которых больше 4 символов
+    //Задание 6: Получение списка уникальных слов из списка строк, длина которых больше 4 символов
     private static void m6() {
         List<String> words = Arrays.asList("apple", "banana", "apricot", "cherry", "kiwi", "cherry", "kiwi");
         List<String> result = words.stream()
@@ -120,6 +120,8 @@ public class TaskSTREAM {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         characterFrequency.forEach((character, frequency) -> System.out.println(character + ": " + frequency));
     }
+
+
 
 
     public static void main(String[] args) {
