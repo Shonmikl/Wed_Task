@@ -7,11 +7,12 @@ import java.util.List;
 
 public class Task77 {
     /**
-     * Дан список строк. Необходимо найти количество строк, которые содержат з
-     *      * аданное подстроку.
+     * Дан список строк. Необходимо найти количество строк, которые содержат
+     * заданную подстроку.
      */
     private static void m1() {
-
+        List<String> list = Arrays.asList("Java", "JavaScript", "Python", "Ruby");
+        String substring = "Java";
     }
 
     /**
@@ -20,7 +21,8 @@ public class Task77 {
      */
 
     private static void m2() {
-
+        List<Integer> list = Arrays.asList(10, 15, 20, 25, 30);
+        int divisor = 5;
     }
 
     /**
@@ -62,11 +64,9 @@ public class Task77 {
     }
 
     /**
-     * Проверка, что строка представляет собой дату в формате "yyyy-mm-dd"..REGEX
+     * Проверка, что строка представляет собой дату в формате "yyyy-mm-dd".REGEX
      */
-
     private static void m7() {
         String dateString = "2023-04-27";
     }
-
 }
