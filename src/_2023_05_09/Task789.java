@@ -35,6 +35,9 @@ public class Task789 {
      */
 
     private static int[][] rotate(int[][] matrix) {
+        if(matrix == null) {
+            throw new IncorrectIndexException(ErrorMessage.INCORRECT_INDEX_EXCEPTION);
+        }
         return null;
     }
 
