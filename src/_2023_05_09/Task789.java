@@ -54,8 +54,4 @@ public class Task789 {
     private static List<Integer> sumUD(int[][] matrix) {
         return null;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
