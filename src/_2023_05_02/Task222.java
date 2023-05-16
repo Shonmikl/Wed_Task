@@ -1,9 +1,12 @@
 package _2023_05_02;
 
+import _2023_05_06.Task333;
+
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Task222 {
+
 
     //написать программу на Java, которая на вход получает массив
     //строк и проверяет, есть ли среди них хотя бы одна строка,
