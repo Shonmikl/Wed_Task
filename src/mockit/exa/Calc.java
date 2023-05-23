@@ -1,7 +1,5 @@
 package mockit.exa;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 

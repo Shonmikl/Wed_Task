@@ -1,8 +1,7 @@
 package mockit.test;
 
 import mockit.mock.*;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 
