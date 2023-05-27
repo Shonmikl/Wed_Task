@@ -13,13 +13,13 @@ public class MTE3 extends Thread {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        MTE3 mte3 = new MTE3();
-        mte3.start();
+        MTE3 THREAD = new MTE3();
+        THREAD.start();
         Thread.sleep(1500);
 
         System.out.println("1,5 sec later.......");
-        mte3.b = false;
-        mte3.join();
+        THREAD.b = false;
+        THREAD.join();
 
         System.out.println("Main End");
     }
