@@ -13,8 +13,6 @@ public class ExchangerEx {
     public static void main(String[] args) {
         Exchanger<Action> exchanger = new Exchanger<>();
 
-
-
         List<Action> person1actionList = new ArrayList<>();
         person1actionList.add(Action.SCISSORS);
         person1actionList.add(Action.STONE);
@@ -27,7 +25,6 @@ public class ExchangerEx {
 
         new Person("PERSON1", person1actionList, exchanger);
         new Person("PERSON2", person2actionList, exchanger);
-
     }
 }
 
